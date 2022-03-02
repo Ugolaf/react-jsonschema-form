@@ -3,13 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = IconButton;
+exports["default"] = IconButton;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _excluded = ["type", "icon", "className"];
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -22,13 +20,13 @@ function IconButton(props) {
       type = _props$type === void 0 ? "default" : _props$type,
       icon = props.icon,
       className = props.className,
-      otherProps = _objectWithoutProperties(props, _excluded);
+      otherProps = _objectWithoutProperties(props, ["type", "icon", "className"]);
 
-  return /*#__PURE__*/_react.default.createElement("button", _extends({
+  return _react["default"].createElement("button", _extends({
     type: "button",
     className: "btn btn-".concat(type, " ").concat(className)
-  }, otherProps), /*#__PURE__*/_react.default.createElement("i", {
+  }, otherProps), _react["default"].createElement("i", {
     className: "glyphicon glyphicon-".concat(icon)
   }));
 }
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL0ljb25CdXR0b24uanMiXSwibmFtZXMiOlsiSWNvbkJ1dHRvbiIsInByb3BzIiwidHlwZSIsImljb24iLCJjbGFzc05hbWUiLCJvdGhlclByb3BzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7Ozs7Ozs7Ozs7OztBQUVlLFNBQVNBLFVBQVQsQ0FBb0JDLEtBQXBCLEVBQTJCO0FBQ3hDLG9CQUE2REEsS0FBN0QsQ0FBUUMsSUFBUjtBQUFBLE1BQVFBLElBQVIsNEJBQWUsU0FBZjtBQUFBLE1BQTBCQyxJQUExQixHQUE2REYsS0FBN0QsQ0FBMEJFLElBQTFCO0FBQUEsTUFBZ0NDLFNBQWhDLEdBQTZESCxLQUE3RCxDQUFnQ0csU0FBaEM7QUFBQSxNQUE4Q0MsVUFBOUMsNEJBQTZESixLQUE3RDs7QUFDQSxzQkFDRTtBQUNFLElBQUEsSUFBSSxFQUFDLFFBRFA7QUFFRSxJQUFBLFNBQVMsb0JBQWFDLElBQWIsY0FBcUJFLFNBQXJCO0FBRlgsS0FHTUMsVUFITixnQkFJRTtBQUFHLElBQUEsU0FBUyxnQ0FBeUJGLElBQXpCO0FBQVosSUFKRixDQURGO0FBUUQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBJY29uQnV0dG9uKHByb3BzKSB7XHJcbiAgY29uc3QgeyB0eXBlID0gXCJkZWZhdWx0XCIsIGljb24sIGNsYXNzTmFtZSwgLi4ub3RoZXJQcm9wcyB9ID0gcHJvcHM7XHJcbiAgcmV0dXJuIChcclxuICAgIDxidXR0b25cclxuICAgICAgdHlwZT1cImJ1dHRvblwiXHJcbiAgICAgIGNsYXNzTmFtZT17YGJ0biBidG4tJHt0eXBlfSAke2NsYXNzTmFtZX1gfVxyXG4gICAgICB7Li4ub3RoZXJQcm9wc30+XHJcbiAgICAgIDxpIGNsYXNzTmFtZT17YGdseXBoaWNvbiBnbHlwaGljb24tJHtpY29ufWB9IC8+XHJcbiAgICA8L2J1dHRvbj5cclxuICApO1xyXG59XHJcbiJdfQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL0ljb25CdXR0b24uanMiXSwibmFtZXMiOlsiSWNvbkJ1dHRvbiIsInByb3BzIiwidHlwZSIsImljb24iLCJjbGFzc05hbWUiLCJvdGhlclByb3BzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7Ozs7Ozs7Ozs7QUFFZSxTQUFTQSxVQUFULENBQW9CQyxLQUFwQixFQUEyQjtBQUFBLG9CQUNxQkEsS0FEckIsQ0FDaENDLElBRGdDO0FBQUEsTUFDaENBLElBRGdDLDRCQUN6QixTQUR5QjtBQUFBLE1BQ2RDLElBRGMsR0FDcUJGLEtBRHJCLENBQ2RFLElBRGM7QUFBQSxNQUNSQyxTQURRLEdBQ3FCSCxLQURyQixDQUNSRyxTQURRO0FBQUEsTUFDTUMsVUFETiw0QkFDcUJKLEtBRHJCOztBQUV4QyxTQUNFO0FBQ0UsSUFBQSxJQUFJLEVBQUMsUUFEUDtBQUVFLElBQUEsU0FBUyxvQkFBYUMsSUFBYixjQUFxQkUsU0FBckI7QUFGWCxLQUdNQyxVQUhOLEdBSUU7QUFBRyxJQUFBLFNBQVMsZ0NBQXlCRixJQUF6QjtBQUFaLElBSkYsQ0FERjtBQVFEIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSWNvbkJ1dHRvbihwcm9wcykge1xyXG4gIGNvbnN0IHsgdHlwZSA9IFwiZGVmYXVsdFwiLCBpY29uLCBjbGFzc05hbWUsIC4uLm90aGVyUHJvcHMgfSA9IHByb3BzO1xyXG4gIHJldHVybiAoXHJcbiAgICA8YnV0dG9uXHJcbiAgICAgIHR5cGU9XCJidXR0b25cIlxyXG4gICAgICBjbGFzc05hbWU9e2BidG4gYnRuLSR7dHlwZX0gJHtjbGFzc05hbWV9YH1cclxuICAgICAgey4uLm90aGVyUHJvcHN9PlxyXG4gICAgICA8aSBjbGFzc05hbWU9e2BnbHlwaGljb24gZ2x5cGhpY29uLSR7aWNvbn1gfSAvPlxyXG4gICAgPC9idXR0b24+XHJcbiAgKTtcclxufVxyXG4iXX0=
