@@ -285,8 +285,7 @@ function SchemaFieldRender(props) {
       {...props}
       idSchema={idSchema}
       schema={schema}
-      uiSchema={uiSchema}
-      // uiSchema={{ ...uiSchema, classNames: undefined }}
+      uiSchema={{ ...uiSchema, classNames: undefined }}
       disabled={disabled}
       readonly={readonly}
       hideError={hideError}
